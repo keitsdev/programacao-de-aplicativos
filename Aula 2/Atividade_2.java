@@ -22,6 +22,9 @@ public class Atividade1_Aula2 {
                 
             }catch(Exception e){
                 System.out.println("Informe um valor inteiro!");
+
+                sc.nextLine();
+                continue;
             }
             i++;
             
