@@ -15,7 +15,7 @@ class Carro {
     }
 
     public void acelerar(int valor){
-        if (valor >= this.velMax) {
+        if (valor >= this.velMax && valor + this.velAtual >= this.velMax) {
             this.velAtual = this.velMax;
             System.out.println("Velocidade Atual: " + this.velAtual);
             return;
@@ -41,5 +41,6 @@ class Carro {
     public int getVelAtual() {
         return this.velAtual;
     }
+
 
 }
