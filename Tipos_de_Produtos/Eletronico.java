@@ -1,7 +1,7 @@
 class Eletronico extends Produto {
     private String garantia;
 
-    Eletronico(String nome, float preco, String garantia){
+    Produto(String nome, float preco, String garantia){
         super(nome, preco);
         this.garantia = garantia;
     }

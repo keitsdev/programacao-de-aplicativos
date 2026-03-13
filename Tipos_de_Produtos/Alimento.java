@@ -16,6 +16,6 @@ class Alimento extends Produto {
 
     @Override
     public void mostrarProd(){
-        System.out.println("Produto: " + this.getNome() + "  Preço: " + this.getPreco() + "  Data de validade: " + this.dataValidade);
+        System.out.println("Produto: " + this.getNome() + "  Preço: " + this.getPreco() + "  Data de validade:" + this.dataValidade);
     }
 }
