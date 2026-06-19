@@ -32,6 +32,6 @@ CREATE TABLE pedidos (
     nome_cliente VARCHAR(100) NOT NULL,
     metodo_pagamento VARCHAR(50) NOT NULL,
     id_preco INT NOT NULL,
-    FOREIGN KEY (id_preco) REFERENCES preco (id)
-    data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+    FOREIGN KEY (id_preco) REFERENCES preco (id),
+    data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
